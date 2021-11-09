@@ -67,7 +67,7 @@ public class DB {
             try {
                 statement.close();
             } catch (SQLException e) {
-                throw new secao21.JDBC1.base.DbException(e.getMessage());
+                throw new DbException(e.getMessage());
             }
         }
     }
